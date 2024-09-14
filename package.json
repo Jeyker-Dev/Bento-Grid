@@ -1,0 +1,22 @@
+{
+  "name": "bento-grid-main",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Bento Grid Challenge",
+  "main": "tailwind.config.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyker-Dev/Bento-Grid.git"
+  },
+  "author": "Jeyker-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyker-Dev/Bento-Grid/issues"
+  },
+  "homepage": "https://github.com/Jeyker-Dev/Bento-Grid#readme"
+}
