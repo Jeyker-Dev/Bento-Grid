@@ -5,38 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="../dist/output.css">
   
   <title>Frontend Mentor | Bento grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+<body class="bg-sky-40 min-h-screen">
+  <!--  Main Content  -->
+  <main class="w-10/12 mx-auto mt-20 grid grid-cols-8 gap-2 relative">
 
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
+    <!--  First Column -->
+    <div class="bg-orange-100 col-start-1 col-end-3 row-start-1 rounded h-72">
+      <p class="mx-auto p-4 font-semibold font-vesper text-3xl mt-4">
+        Create And schedule contend <span class="text-indigo-500">quicker.</span>
+      </p>
 
-  Manage multiple accounts and platforms.
+      <img src="../assets/images/illustration-create-post.webp" alt="Image Button" class="w-36 mx-auto">
+    </div>
+    <!--  Here End First Column -->
 
-  Maintain a consistent posting schedule.
+    <!--  Second Column -->
+    <div class="bg-indigo-500 rounded col-start-3 col-end-7 h-60">
+      <p class="text-white text-4xl font-vesper font-semibold text-center py-6 px-4">
+        Social Media <span class="text-yellow-400">10x</span>
+        Faster with AI
+      </p>
+      <img src="../assets/images/illustration-five-stars.webp" alt="Image Stars" class="w-44 object-cover object-center mx-auto">
+      <p class="text-white font-semibold font-vesper text-center pb-4">Over 4,000 5-star reviews</p>
+    </div>
+    <!--  Here End Second Column -->
 
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-  
-  Grow followers with non-stop content.
+        <!--  Third Column -->
+    <div class="bg-indigo-400 col-span-2 rounded">
+        <p class="text-2xl font-vesper font-semibold text-balance p-4 text-black">Schedule to Social Media</p>
+        <img src="../assets/images/illustration-schedule-posts.webp" alt="Image Schedule Post" class="w-44 h-64 object-fill object-center ml-5">
+        <p class="text-sm text-black text-center font-vesper font-semibold m-3">
+          Optimize Post Timings to publish content at the perfect time for your audience
+        </p>
+    </div>
+    <!--  Here End Third Column -->
 
-  >56% faster audience growth
-  
-  Create and schedule content quicker.
+    <div class="bg-amber-300 col-start-1 col-span-2 rounded absolute top-80">
+      <p class="text-center text-black font-vesper font-semibold text-3xl p-2">
+        Write Your Content Using Ai
+      </p>
 
-  Write your content using AI.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <img src="../assets/images/illustration-ai-content.webp" alt="Image AI Content" class="w-36 h-44 mx-auto object-cover mt-2">
+    </div>
+
+    <div class="bg-orange-100 col-start-3 col-span-2 h-52 rounded absolute top-64">
+      <img src="../assets/images/illustration-multiple-platforms.webp" alt="Image Multiple Platform" class="w-60 object-cover mx-auto py-4 px-2">
+
+      <p class="text-2xl text-black font-vesper font-semibold p-2">
+        Manage Multiple Accounts And Platforms
+      </p>
+    </div>
+
+    <div class="bg-amber-300 col-start-5 col-span-2 h-52 rounded absolute top-64">
+      <p class="text-2xl text-black font-vesper font-semibold">
+        Maintain a consistent posting schedule
+      </p>
+      <img src="../assets/images/illustration-consistent-schedule.webp" alt="Image Consistent Schedule" class="w-44 h-24 mx-auto object-center object-fill mt-2">
+    </div>
+
+    <div class="bg-orange-100 col-start-3 col-span-2 h-52 rounded mt-4">
+      <p class="text-5xl text-black font-vesper font-semibold p-3 text-center"> >56>% </p>
+            <p class="text-center font-vesper font-semibold">Faster Audience Growth</p>
+
+            <img src="../assets/images/illustration-audience-growth.webp" alt="Image Audience Growth" class="w-44 mt-2 object-cover object-center">
+    </div>
+
+    <div class="bg-indigo-500 col-start-5 col-span-4 h-52 flex items-center justify-center rounded mt-4">
+      <img src="../assets/images/illustration-grow-followers.webp" alt="Image Grow Followers" class="w-36 h-36 object-cover mt-4 ml-4">
+      <p class="text-white text-2xl font-vesper font-semibold text-balance text-center mr-4">
+        Grow Followers With Non-stop Content
+      </p>
+    </div>
+  </main>
+    <!--  Here End Main Content  -->
 </body>
 </html>
